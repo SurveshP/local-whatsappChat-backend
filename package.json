@@ -2,9 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "type": "module",
+  "main": "api/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node api/server.js",
+    "build": "echo 'Build completed'",
+    "vercel-build": "npm install"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",

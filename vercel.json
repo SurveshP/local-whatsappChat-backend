@@ -4,5 +4,10 @@
       "runtime": "nodejs20.x"
     }
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/server.js" }]
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/server.js"
+    }
+  ]
 }
